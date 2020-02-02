@@ -43,7 +43,7 @@ function kittyCat(catArray){
 }
 kittyCat(cats);
 //Question 8
-function kittyCat(catArray){
+function kittyCatAttack(catArray){
   let catHTML = "";
 
   for (let i = 0; i < catArray.length; i++){
@@ -53,13 +53,13 @@ function kittyCat(catArray){
   return catHTML;
 }
 //Question 9
-const cHTML = kittyCat(cats);
+const cHTML = kittyCatAttack(cats);
 
 resultsContainer.innerText = cHTML;
 
 
 //Question 10
-function kittyCat(catArray){
+function kittyCatAttack(catArray){
   let catHTML = "";
 
   for (let i = 0; i < catArray.length; i++){
